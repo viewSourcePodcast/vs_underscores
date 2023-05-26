@@ -22,7 +22,6 @@
 			}
 
 			li {
-
 				&:hover > ul,
 				&.focus > ul {
 					display: block;
@@ -76,7 +75,6 @@
 }
 
 @media screen and (min-width: 37.5em) {
-
 	.menu-toggle {
 		display: none;
 	}
@@ -89,7 +87,6 @@
 .comment-navigation,
 .posts-navigation,
 .post-navigation {
-
 	.site-main & {
 		margin: 0 0 1.5em;
 	}
@@ -105,5 +102,37 @@
 	.nav-next {
 		text-align: end;
 		flex: 1 0 50%;
+	}
+}
+
+/* Better header  */
+#masthead {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#masthead .site-branding {
+	max-width: 120px;
+}
+#masthead .site-branding .custom-logo-link + .site-title {
+	display: none;
+}
+
+@media screen and (min-width: 37.5em) {
+	#masthead #site-navigation ul {
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 0.75rem;
+	}
+
+	#masthead #site-navigation ul li a {
+		padding: 0.25rem;
+	}
+
+	#colophon {
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
