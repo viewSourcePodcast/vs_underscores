@@ -100,3 +100,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Alignments
 --------------------------------------------- */
 @import "utilities/alignments";
+
+@import "layouts/custom"; // Extra base styling for this theme.
+// @import "layouts/custom-archive";
+// @import "layouts/custom-archive-grid";

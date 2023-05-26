@@ -975,4 +975,10 @@ ul.wp-block-categories-list,
 	margin-bottom: 1.5em;
 }
 
+body.archive #page #primary,
+body.blog #page #primary {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
